@@ -165,6 +165,9 @@
   display: flex;
   justify-content: space-between;
 }
+.category>.p>p:nth-child(2){
+  font-size: 14px;
+}
 .popular-post{
   width: 100%;
   display: flex;
@@ -173,12 +176,13 @@
   justify-content: center;
 }
 .popular-post>p,
-.recent-post>p{
+.recent-post>p,
+.product>p{
+  width: 100%;
   font-size: 31px;
   font-weight: 700;
   background-color: white;
   padding: 20px;
-  width: 100%;
   text-align: center;
   margin:20px 0;
   box-shadow: 2px  2px 2px 2px #8888882a;
@@ -217,8 +221,79 @@
   background-color: white;
   padding: 4px;
 }
-.recent-post{
+.recent-post,
+.product{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.recent-post>.posts,
+.product>.p-posts{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.recent-post>.posts>.posts-text,
+.product>.p-posts>.p-posts-text
+{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.recent-post>.posts>.posts-text>p:nth-child(1){
+  font-size: 18px;
+  font-weight: 500px;
+}
+.recent-post>.posts>.posts-text>p:nth-child(2){
+  font-size: 24px;
+  font-weight: 600;
+}
+.view-detal{
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  margin:40px 0;
+  box-shadow: 2px  2px 2px 2px #8888882a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.view-detal>p:nth-child(1),p:nth-child(2){
+  font-size: 30px;
+  font-weight: 700;
+}
+.view-detal>p:nth-child(3){
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+.view-detal>p:nth-child(4){
+  background-color: #0336ff;
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+.view-detal>p:nth-child(4)>a{
+  text-decoration: none;
+  color: white;
+}
+.product>.p-posts>.p-posts-text>p:nth-child(1){
+  font-size: 18px;
+  font-weight: 700px;
+}
+.product>.p-posts>.p-posts-text>p:nth-child(2){
+  font-size: 24px;
+  color: blue;
+}
+.sosial-net>p{
+  font-size: 31px;
+  font-weight: 700;
+  background-color: white;
+  padding: 20px 108px;
+  text-align: center;
+  margin:20px 0;
+  box-shadow: 2px  2px 2px 2px #8888882a;
 }
 .right-s2{
     width: 70%;
