@@ -295,6 +295,48 @@
   margin:20px 0;
   box-shadow: 2px  2px 2px 2px #8888882a;
 }
+.sosial-icons{
+  display: flex;
+  flex-wrap: wrap;
+  
+  gap: 10px;
+}
+.sosial-icons>.facebook>i,
+.twitter>i,
+.youtube>i,
+.instagram>i{
+  font-size: 22px;
+  color: white;
+  padding-right: 20px;
+}
+.sosial-icons>.facebook>div>p,
+.twitter>div>p,
+.youtube>div>p,
+.instagram>div>p{
+  font-size: 16px;
+  color: white;
+  
+}
+.sos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 169px;
+}
+.sosial-icons>.facebook{
+  background-color: #4056AC  ;
+}
+.sosial-icons>.twitter{
+  background-color: #60B7FE  ;
+}
+.sosial-icons>.youtube{
+  background-color: #FE2C3C  ;
+}
+.sosial-icons>.instagram{
+  background-color: #E14D93;
+}
 .right-s2{
     width: 70%;
     background-color: #0336ff;
