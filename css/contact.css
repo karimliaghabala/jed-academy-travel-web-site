@@ -90,27 +90,34 @@
   justify-content: center;
   width: 855px;
 }
-.section-2>form>input,
+.section-2>form>div>input,
 .section-2>form>textarea
 {
   padding: 10px 10px;
   margin: 10px 0;
 }
 .section-2>form>textarea{
-  width: 854px;
+  width: 720px;
   resize: none;
 }
-.section-2>form>input{
+.section-2>form>div>input{
   width: 350px;
   display: inline;
 }
 .section-2>form>.submit{
   background-color: #0336FF;
   width: 124px;
+  height: 40px;
   border: none;
   border-radius: 5px;
   color: white;
   font-weight: 500;
+}
+.section-2>form>div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 
