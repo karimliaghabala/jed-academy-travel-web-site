@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(241, 236, 236);
+}
+/*<<<<<<<<<<<<<<<<<<< SECTION 1 START>>>>>>>>>>>>>>>>>>*/
+.section-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/contact-img/Rectangle\ 5.svg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+}
+.navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.nav > ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 25px 0 0 0;
+}
+.nav > ul > li {
+  list-style: none;
+}
+.nav > ul > li > a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffa500;
+}
+.nav > ul > li:nth-child(5) {
+  background-color: #0336ff;
+  width: 124px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  border-radius: 8px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.header > p:nth-child(1) {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  padding: 100px 0 100px 0;
+} 
+
+/*<<<<<<<<<<<<<<<<<<< SECTION 1 END>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<< SECTION 2 START>>>>>>>>>>>>>>>>>>*/
+.section-2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.section-2>form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 855px;
+}
+.section-2>form>input,
+.section-2>form>textarea
+{
+  padding: 10px 10px;
+  margin: 10px 0;
+}
+.section-2>form>textarea{
+  width: 854px;
+  resize: none;
+}
+.section-2>form>input{
+  width: 350px;
+  display: inline;
+}
+.section-2>form>.submit{
+  background-color: #0336FF;
+  width: 124px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+}
+
+
+/*<<<<<<<<<<<<<<<<<<< SECTION 2 END>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<< SECTION 3 START>>>>>>>>>>>>>>>>>>*/
+.section-3{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.section-3>.images{
+  display: flex;
+  flex-wrap: no-wrap;
+}
+.section-3>.images>img{
+  width: 260px;
+  height: 296px;
+}
+.section-3>button{
+  width: 201px;
+  height: 52px;
+  background-color: #0336FF;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+}
+.section-3>button>a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+/*<<<<<<<<<<<<<<<<<<< SECTION 3 END>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<< SECTION 4 START>>>>>>>>>>>>>>>>>>*/
+.section-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 50px;
+  background-color: white;
+  width: 100%;
+}
+.section-4>p{
+  font-size: 30px;
+  font-weight: 700;
+  width: 474px;
+}
+.section-4>input{
+  border: 1px solid #C4C4C4  ;
+  padding: 20px 50px 20px 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.section-4>button{
+  background-color: #0336FF;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 8px;
+}
+.section-4>button>a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+/*<<<<<<<<<<<<<<<<<<< SECTION 4 END>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<< SECTION 5 START>>>>>>>>>>>>>>>>>>*/
+.section-5{
+  width: 100%;
+}
+.section-5>.top-footer{
+  padding: 10px 150px;
+}
+.section-5>.top-footer>ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-5>.top-footer>ul>li{
+  list-style: none;
+}
+.section-5>.top-footer>ul>li>a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.middle-footer{
+  background-color: #00000080  ;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 20px 150px 70px;
+  gap: 50px;
+  color: white;
+}
+.flex-footer,
+.mdf-box3>ul,
+.mdf-box4>ul{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.middle-footer>.mdf-box1{
+  width: 350px;
+}
+.middle-footer>.mdf-box1>p,
+.mdf-box2>p{
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.middle-footer>.mdf-box2{
+  width: 200px;
+}
+.mdf-box3>ul>li>a,
+.mdf-box4>ul>li>a{
+  text-decoration: none;
+  color: white;
+}
+.mdf-box3>ul>li,
+.mdf-box4>ul>li{
+  list-style: none;
+}
+.bottom-footer{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 20px 150px;
+  background-color: #00000080  ;
+  border-top: 1px solid rgba(255, 255, 255, 0.192);
+}
+
+.bf-sosial{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0 0 0 ;
+}
+.bf-sosial>a>i{
+  font-size: 22px;
+  color: white;
+  
+}
+
+.bf-content>ul{
+  display: flex;
+  padding: 15px 0 0 0 ;
+  justify-content: space-between;
+  gap: 15px;
+}
+.bf-content>ul>li{
+  list-style: none;
+}
+.bf-content>ul>li>a{
+  text-decoration: none;
+  color: white;
+}
+/*<<<<<<<<<<<<<<<<<<< SECTION 5 END>>>>>>>>>>>>>>>>>>*/
