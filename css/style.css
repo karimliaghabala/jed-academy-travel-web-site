@@ -109,6 +109,7 @@
 /*<<<<<<<<<<<<<<<<<<< SECTION 2 START>>>>>>>>>>>>>>>>>>*/
 .section-2{
     width: 90%;
+    margin:auto;
     padding: 50px 0;
     display: flex;
     justify-content: center;
