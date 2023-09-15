@@ -42,6 +42,13 @@
 }
 .nav > ul > li {
   list-style: none;
+  transition: 400ms;
+}
+.nav > ul > li:hover{
+  transform: translate(10px) scale(1.05);
+  background-color: #C4C4C4;
+  border-radius: 10px;
+  padding: 5px;
 }
 .nav > ul > li > a {
   text-decoration: none;
@@ -150,6 +157,10 @@
   background-color: #ddd0d08a;
   position: relative;
   box-shadow: 0  0 50px 30px #ddd0d08a; 
+  transition: 300ms;
+}
+.card-content:hover{
+  transform: translate(-30px) scale(1.1);
 }
 .card-content>img{
   width: 350px;
@@ -213,6 +224,10 @@
 .section-3>.images>img{
   width: 260px;
   height: 296px;
+  transition: 300ms;
+}
+.section-3>.images>img:hover{
+  transform: scale(1.2);
 }
 .section-3>button{
   width: 201px;
@@ -222,6 +237,10 @@
   border-radius: 8px;
   position: absolute;
   top: 50%;
+  transition: 300ms;
+}
+.section-3>button:hover{
+  transform: scale(1.1);
 }
 .section-3>button>a{
   text-decoration: none;
@@ -254,6 +273,10 @@
   padding: 20px 30px;
   border: none;
   border-radius: 8px;
+  transition: 300ms;
+}
+.section-4>button:hover{
+  transform: scale(1.1);
 }
 .section-4>button>a{
   text-decoration: none;

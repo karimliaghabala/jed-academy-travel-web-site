@@ -44,6 +44,13 @@
 }
 .nav > ul > li {
   list-style: none;
+  transition: 400ms;
+}
+.nav > ul > li:hover{
+  transform: translate(10px) scale(1.05);
+  background-color: #C4C4C4;
+  border-radius: 10px;
+  padding: 5px;
 }
 .nav > ul > li > a {
   text-decoration: none;
@@ -66,12 +73,21 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
+  animation: textanimation 2s;
 }
 .header > p:nth-child(1) {
   font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: white;
+}
+@keyframes textanimation{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 520px;
+  }
 }
 .header > p:nth-child(1) > span {
   color: #ffa500;
@@ -87,6 +103,10 @@
   background-color: #0336ff;
   padding: 20px 40px;
   border-radius: 10px;
+  transition: 200ms;
+}
+.header > p:nth-child(3):hover{
+  transform: scale(1.2);
 }
 .header > p:nth-child(3) > a {
   text-decoration: none;
@@ -143,6 +163,10 @@
   background-color: #0336ff;
   padding: 30px 60px;
   border-radius: 10px;
+  transition: 200ms;
+}
+.left-s2>.about-me>p:nth-child(4):hover{
+  transform: scale(1.2);
 }
 .left-s2>.about-me>p:nth-child(4)>a{
   text-decoration: none;
@@ -276,6 +300,10 @@
   background-color: #0336ff;
   padding: 20px 40px;
   border-radius: 15px;
+  transition: 300ms;
+}
+.view-detal>p:nth-child(4):hover{
+  transform: scale(1.1);
 }
 .view-detal>p:nth-child(4)>a{
   text-decoration: none;
@@ -327,6 +355,10 @@
   padding: 10px 20px;
   border-radius: 8px;
   width: 169px;
+  transition: 300ms;
+}
+.sos:hover{
+  transform: translate(-10px) scale(1.1);
 }
 .sosial-icons>.facebook{
   background-color: #4056AC  ;
@@ -356,7 +388,6 @@
   background-color: white;
   padding: 20px;
   box-shadow: 2px  2px 2px 2px #8888882a;
-  
 }
 .new-content>img{
   width: 783px;
@@ -405,6 +436,10 @@
   flex-direction: column;
   align-items: start;
   gap: 15px;
+  transition: 300ms;
+ }
+ .news-cont:hover{
+  transform: translate(-10px) scale(1.1);
  }
  .news-cont>p:nth-child(2){
   font-size: 18px;
@@ -454,6 +489,10 @@
   background-color: #0336FF   ;
   border: none;
   border-radius: 8px;
+  transition: 300ms;
+ }
+ .img-content>button:hover{
+  transform: scale(1.2);
  }
  .img-content>button>a{
   text-decoration: none;
@@ -482,6 +521,10 @@
 .section-3>.images>img{
   width: 260px;
   height: 296px;
+  transition: 300ms;
+}
+.section-3>.images>img:hover{
+  transform: scale(1.2);
 }
 .section-3>button{
   width: 201px;
@@ -491,6 +534,10 @@
   border-radius: 8px;
   position: absolute;
   top: 50%;
+  transition: 300ms;
+}
+.section-3>button:hover{
+  transform: scale(1.1);
 }
 .section-3>button>a{
   text-decoration: none;
@@ -523,6 +570,10 @@
   padding: 20px 30px;
   border: none;
   border-radius: 8px;
+  transition: 300ms;
+}
+.section-4>button:hover{
+  transform: scale(1.1);
 }
 .section-4>button>a{
   text-decoration: none;
